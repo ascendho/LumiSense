@@ -27,6 +27,9 @@ root-cause diagnosis. The code is organized by workflow stage:
 A small fixture under `tests/fixtures/mini_cares/` is provided only for checking
 data contracts and command wiring.
 
+Released LumiSense model weights are hosted under the author's [Hugging Face
+account](https://huggingface.co/ascendho).
+
 ## Install
 
 ```bash
@@ -55,14 +58,10 @@ DRY_RUN=1 code/sft/run_sft.sh --model /path/to/Qwen3.5-0.8B-MLX-4bit
 All stage scripts accept `--data-dir` or `DATA_DIR=...` so the fixture can be
 replaced by a local dataset that follows the expected format.
 
-## License
-
-MIT. Model weights, adapters, raw prediction outputs, and paper-run data are
-**not** included in this repository.
-
 ## Citation
 
-Citation information will be completed after publication:
+If you use the LumiSense code or released model, please cite the associated
+paper. The final bibliographic record will be added after publication:
 
 ```bibtex
 % TODO: replace the placeholder fields with the final publication metadata.
@@ -73,3 +72,8 @@ Citation information will be completed after publication:
   year      = {2026}
 }
 ```
+
+## License
+
+MIT. Model weights, adapters, raw prediction outputs, and paper-run data are
+**not** included in this repository.
