@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lumisense"
+version = "0.1.0"
+description = "Public code for evidence-grounded edge sensor diagnosis with adapted small language models"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+mac = ["mlx>=0.29", "mlx-lm>=0.30", "transformers>=4.57"]
+test = ["pytest>=8.0"]
+baseline = ["scikit-learn>=1.4"]
+
+[tool.setuptools]
+packages = []
+py-modules = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
