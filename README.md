@@ -5,8 +5,6 @@
 
 Public implementation of the LumiSense edge diagnosis framework.
 
-![LumiSense framework](assets/lumisense_framework.png)
-
 > [!NOTE]
 > This repository is a streamlined, code-focused reorganization of the
 > implementation accompanying the paper. It is intended to make the core
