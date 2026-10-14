@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use the LumiSense code or released model, please cite the associated paper (see 'preferred-citation')."
+title: "LumiSense: Evidence-Grounded Edge Sensor Diagnosis with Adapted Small Language Models"
+type: software
+authors:
+  - family-names: He
+    given-names: Sheng
+  - family-names: Li
+    given-names: Haifeng
+  - family-names: Wang
+    given-names: Binxu
+  - family-names: Zhang
+    given-names: Chong
+license: MIT
+repository-code: "https://github.com/ascendho/LumiSense"
+preferred-citation:
+  type: conference-paper
+  title: "LumiSense: Evidence-Grounded Edge Sensor Diagnosis with Adapted Small Language Models"
+  authors:
+    - family-names: He
+      given-names: Sheng
+    - family-names: Li
+      given-names: Haifeng
+    - family-names: Wang
+      given-names: Binxu
+    - family-names: Zhang
+      given-names: Chong
+  conference:
+    name: "2026 5th International Conference on Cloud Computing, Big Data Application and Software Engineering (CBASE 2026)"
+    city: Chengdu
+    country: CN
+    date-start: 2026-10-23
+    date-end: 2026-10-25
+  year: 2026
+  notes: "Accepted; published by IEEE, ISBN 979-8-3195-0947-5. Page numbers and DOI will be added once the proceedings are published."

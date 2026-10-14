@@ -24,9 +24,6 @@ root-cause diagnosis. The code is organized by workflow stage:
 | `code/cascade/` | Confidence-based edge-cloud routing utilities. |
 | `code/baselines/` | Traditional and prompted-LLM baseline scripts. |
 
-A small fixture under `tests/fixtures/mini_cares/` is provided only for checking
-data contracts and command wiring.
-
 Released LumiSense model weights are hosted under the author's [Hugging Face
 account](https://huggingface.co/ascendho).
 
@@ -55,21 +52,20 @@ python3 -m unittest discover -s tests -v
 DRY_RUN=1 code/sft/run_sft.sh --model /path/to/Qwen3.5-0.8B-MLX-4bit
 ```
 
-All stage scripts accept `--data-dir` or `DATA_DIR=...` so the fixture can be
-replaced by a local dataset that follows the expected format.
-
 ## Citation
 
 If you use the LumiSense code or released model, please cite the associated
-paper. The final bibliographic record will be added after publication:
+paper. The paper has been accepted at CBASE 2026; page numbers, DOI, and the
+final proceedings record will be added once IEEE publishes it:
 
 ```bibtex
-% TODO: replace the placeholder fields with the final publication metadata.
 @inproceedings{lumisense2026,
   title     = {LumiSense: Evidence-Grounded Edge Sensor Diagnosis with Adapted Small Language Models},
-  author    = {He, Sheng},
-  booktitle = {Publication venue to be added},
-  year      = {2026}
+  author    = {He, Sheng and Li, Haifeng and Wang, Binxu and Zhang, Chong},
+  booktitle = {2026 5th International Conference on Cloud Computing, Big Data Application and Software Engineering (CBASE 2026)},
+  address   = {Chengdu, China},
+  year      = {2026},
+  note      = {Accepted; published by IEEE, ISBN 979-8-3195-0947-5}
 }
 ```
 
