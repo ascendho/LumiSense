@@ -27,31 +27,6 @@ root-cause diagnosis. The code is organized by workflow stage:
 Released LumiSense model weights are hosted under the author's [Hugging Face
 account](https://huggingface.co/ascendho).
 
-## Install
-
-```bash
-python3 -m pip install -e ".[test]"
-```
-
-For Apple-Silicon MLX experiments:
-
-```bash
-python3 -m pip install -e ".[mac,test]"
-```
-
-Traditional baselines additionally use scikit-learn:
-
-```bash
-python3 -m pip install -e ".[baseline]"
-```
-
-## Smoke Tests
-
-```bash
-python3 -m unittest discover -s tests -v
-DRY_RUN=1 code/sft/run_sft.sh --model /path/to/Qwen3.5-0.8B-MLX-4bit
-```
-
 ## Citation
 
 If you use the LumiSense code or released model, please cite the associated
